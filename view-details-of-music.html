@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <!-- Part of page Frame -->
+  <!-- html-head with all resources -->
+  <head>
+      <!--From index.cshtml-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Martin Lenart, Seido AB">
+  
+      <!-- Modified from index.cshtml-->
+      <title>Simple Static</title>
+  
+      <!--From index.cshtml-->
+      <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="./favicon_io/site.webmanifest">
+  
+  
+      <!--From index.cshtml-->
+  
+      <!-- Bootstrap styles from their respective templates -->
+      <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
+      <link href="./css/bootstrap/navbars-offcanvas.css" rel="stylesheet">
+      <link href="./css/bootstrap/features.css" rel="stylesheet">
+      <link href="./css/bootstrap/grid.css" rel="stylesheet">
+      <link href="./css/bootstrap/sign-in.css" rel="stylesheet">
+      <link href="./css/bootstrap/modals.css" rel="stylesheet">
+  </head>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4">Music Razorpage example</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="Home.html" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="list-of-groups.html" class="nav-link" >Famous groups</a></li>
+            
+        </ul>
+    </header>
+  </div>
+
+        
+  
+          <!-- Page view-group -->
+          <div class="container px-4 py-4" id="view-group">
+            <h2 class="pb-2 border-bottom">View details of a music group
+              <a href="#edit-group"  >
+                <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#edit"/></svg>
+              </a>
+            </h2>
+            <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+              <div class="col-md-7 col-lg-10">
+                <form class="needs-validation" novalidate>
+                  <div class="row g-3" id="musicDetails">
+
+
+                  </div>
+                       
+              </form>
+              </div>
+            </div>
+          </div>
+            <script src="script.js"></script>
+    </body>
+    </html>
